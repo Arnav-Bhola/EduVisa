@@ -1,0 +1,9 @@
+:root {
+  --navbar-height: 12.5vh;
+}
+
+@media only screen and (max-width: 48em) {
+  :root {
+    --navbar-color: 10vh;
+  }
+}
