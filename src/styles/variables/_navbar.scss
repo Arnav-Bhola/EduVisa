@@ -1,5 +1,15 @@
 :root {
   --navbar-height: 12.5vh;
+  --navbar-side-padding: 2rem;
+  --navbar-links-gap: 2rem;
+
+  --navbar-link-font-size: 1.6rem;
+  --navbar-link-font-weight: 700;
+  --navbar-link-side-padding: 2rem;
+  --navbar-link-underline-height: 0.5rem;
+  --navbar-link-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+
+  --navbar-logo-padding: 2.5rem;
 }
 
 @media only screen and (max-width: 48em) {

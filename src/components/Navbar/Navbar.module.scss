@@ -4,21 +4,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2rem;
+  padding: 0 var(--navbar-side-padding);
 }
 
 .links {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: var(--navbar-links-gap);
 }
 
 .link {
   color: var(--color-white);
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 1.6rem;
-  font-weight: 700;
+  font-size: var(--navbar-link-font-size);
+  font-weight: var(--navbar-link-font-weight);
   height: var(--navbar-height);
   user-select: none;
 }
@@ -29,7 +29,7 @@
   text-align: center;
   justify-content: center;
   height: 100%;
-  padding: 0 2rem;
+  padding: 0 var(--navbar-link-side-padding);
   position: relative;
 
   &:after {
@@ -37,11 +37,11 @@
     bottom: 0;
     content: "";
     display: block;
-    height: 0.5rem;
+    height: var(--navbar-link-underline-height);
     left: 50%;
     position: absolute;
     background: var(--color-white);
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    transition: var(--navbar-link-transition);
     width: 0;
   }
 
@@ -54,7 +54,7 @@
 }
 
 .logo {
-  height: calc(var(--navbar-height) - 2.5rem);
+  height: calc(var(--navbar-height) - var(--navbar-logo-padding));
   user-select: none;
 }
 
