@@ -1,0 +1,29 @@
+.container {
+  display: none;
+
+  width: 100vw;
+  background-color: var(--color-pink);
+  border-top: solid var(--color-light-white) var(--phone-navbar-border-width);
+  padding: var(--phone-navbar-padding);
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: var(--phone-navbar-link-gap);
+}
+
+.link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color-light-white);
+  font-weight: var(--phone-navbar-link-font-weight);
+  font-size: var(--phone-navbar-link-font-size);
+  letter-spacing: --phone-navbar-link-letter-spacing;
+}
+
+@media only screen and (max-width: 63em) {
+  .container {
+    display: flex;
+  }
+}

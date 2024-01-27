@@ -58,8 +58,29 @@
   user-select: none;
 }
 
+.toggler-icon {
+  color: var(--color-light-white);
+  font-size: var(--navbar-toggler-size);
+}
+
+.toggler {
+  display: none;
+}
+
 @media only screen and (max-width: 63em) {
   .links {
     display: none;
+  }
+
+  .toggler {
+    display: flex;
+  }
+
+  .container {
+    padding: 0 2rem 0 0;
+  }
+
+  .logo {
+    height: var(--navbar-height);
   }
 }

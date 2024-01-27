@@ -3,7 +3,8 @@ import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "./layouts/Root";
 import ErrorPage from "./routes/404";
 import HomePage from "./routes/Home";
-import ApplyPage from "./routes/Apply";
+import ApplyPage from "./redirects/Apply";
+import DonatePage from "./redirects/Donate";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
     path: "/get-involved",
     element: <ApplyPage />,
   },
+  { path: "/donate", element: <DonatePage /> },
 ]);
 
 export default router;
