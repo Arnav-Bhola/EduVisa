@@ -1,0 +1,21 @@
+.link {
+  background-color: var(--color-dark-gray);
+  color: var(--color-white);
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  width: fit-content;
+  padding: var(--button-padding);
+  border-radius: var(--button-border-radius);
+  font-weight: var(--button-font-weight);
+  font-size: var(--button-font-size);
+  user-select: none;
+  background-image: none;
+  line-height: var(--button-line-height);
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  display: inline-block;
+}
