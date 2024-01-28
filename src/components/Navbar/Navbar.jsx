@@ -10,6 +10,9 @@ import styles from "./Navbar.module.scss";
 import Logo from "../../assets/images/logo.png";
 import PhoneNavbar from "./PhoneNavbar";
 
+import { donateLink } from "../../pages/redirects/Donate";
+import { jobBoardLink } from "../../pages/redirects/Apply";
+
 const Navbar = () => {
   const [showPhoneNavbar, setShowPhoneNavbar] = useState(false);
 
@@ -47,24 +50,24 @@ const Navbar = () => {
           >
             <div className={styles["link-text-container"]}>resources</div>
           </Link>
-          <Link
-            to='/'
+          <a
+            href={jobBoardLink}
             className={styles["link"]}
           >
             <div className={styles["link-text-container"]}>get involved</div>
-          </Link>
+          </a>
           <Link
             to='/'
             className={styles["link"]}
           >
             <div className={styles["link-text-container"]}>blog</div>
           </Link>
-          <Link
-            to='/'
+          <a
+            href={donateLink}
             className={styles["link"]}
           >
             <div className={styles["link-text-container"]}>donate</div>
-          </Link>
+          </a>
         </div>
 
         <div

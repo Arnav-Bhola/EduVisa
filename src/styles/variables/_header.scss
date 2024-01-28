@@ -12,3 +12,23 @@
   --header-description-font-size: 1.8rem;
   --header-description-line-height: 1.5;
 }
+
+@media only screen and (max-width: 40em) {
+  :root {
+    --header-text-indent: 10rem;
+  }
+}
+
+@media only screen and (max-width: 30em) {
+  :root {
+    --header-text-indent: 5rem;
+    --header-heading-font-size: 5rem;
+    --header-text-block-width: 90%;
+  }
+}
+
+@media only screen and (max-width: 24.5em) {
+  :root {
+    --header-text-indent: 2rem;
+  }
+}

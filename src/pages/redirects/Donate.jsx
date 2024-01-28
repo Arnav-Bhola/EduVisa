@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const donateLink = "https://www.paypal.com/paypalme/eduvisa";
+export const donateLink = "https://www.paypal.com/paypalme/eduvisa";
 
 const DonatePage = () => {
   useEffect(() => {

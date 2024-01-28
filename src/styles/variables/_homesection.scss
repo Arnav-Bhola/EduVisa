@@ -1,0 +1,30 @@
+:root {
+  --home-section-container-vertical-padding: 8rem;
+  --home-section-text-block-width: 55%;
+
+  --home-section-heading-font-size: 3rem;
+  --home-section-heading-font-weight: 700;
+  --home-section-heading-whitespace: 2rem;
+
+  --home-section-details-font-size: 1.8rem;
+  --home-section-details-line-height: 1.5;
+  --home-section-details-opacity: 0.8;
+  --home-section-details-whitespace: 2rem;
+
+  --home-section-underline-border-width: 2px;
+  --home-section-underline-width: 5.5rem;
+
+  --home-section-button-whitespace: 3rem;
+}
+
+@media only screen and (max-width: 31em) {
+  :root {
+    --home-section-text-block-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 18.75em) {
+  :root {
+    --home-section-text-block-width: 90%;
+  }
+}

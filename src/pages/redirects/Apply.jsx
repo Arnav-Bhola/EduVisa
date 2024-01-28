@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const jobBoardLink =
+export const jobBoardLink =
   "https://cloud-mars-a91.notion.site/Job-Board-ea2c739f2c744d9fb585752b09d8cc5d";
 
 const ApplyPage = () => {
