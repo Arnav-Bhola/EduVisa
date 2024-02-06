@@ -43,6 +43,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+a {
+  color: var(--color-pink);
+  text-decoration: none;
+  font-weight: 700;
+  transition: all 1s;
+
+  &:hover {
+    text-decoration: underline;
+    color: #58111b;
+  }
+}
+
 ::selection {
   background-color: var(--color-dark-gray);
   color: var(--color-white);

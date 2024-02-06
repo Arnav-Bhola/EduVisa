@@ -1,6 +1,8 @@
 :root {
   --home-section-container-vertical-padding: 8rem;
   --home-section-text-block-width: 55%;
+  --home-section-support-text-block-width: 85%;
+  --home-section-support-subsections-whitespace: 4rem;
 
   --home-section-heading-font-size: 3rem;
   --home-section-heading-font-weight: 700;
@@ -10,6 +12,11 @@
   --home-section-details-line-height: 1.5;
   --home-section-details-opacity: 0.8;
   --home-section-details-whitespace: 2rem;
+
+  --home-section-subsection-height: 45rem;
+  --home-section-subsection-icon-size: 6rem;
+  --home-section-subsection-icon-gap: 2rem;
+  --home-section-subsection-heading-font-size: 2.4rem;
 
   --home-section-underline-border-width: 2px;
   --home-section-underline-width: 5.5rem;
