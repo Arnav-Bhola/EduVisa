@@ -21,6 +21,12 @@
   font-weight: var(--navbar-link-font-weight);
   height: var(--navbar-height);
   user-select: none;
+  transition: none;
+
+  &:hover {
+    text-decoration: none;
+    color: var(--color-white);
+  }
 }
 
 .link-text-container {

@@ -4,6 +4,8 @@ import Button from "../UI/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 
+import { discordLink } from "../../pages/redirects/Discord.jsx";
+
 const Header = () => {
   return (
     <div className={styles["container"]}>
@@ -13,8 +15,11 @@ const Header = () => {
           We&apos;re a global community of students, by students, for students, in a time when
           we&apos;re as disconnected as ever.
         </p>
-        <Button className={styles["button"]}>
-          {" "}
+        <Button
+          href={discordLink}
+          className={styles["button"]}
+          linktype='outside'
+        >
           <FontAwesomeIcon icon={faDiscord} /> &nbsp; join us on discord!
         </Button>
       </div>

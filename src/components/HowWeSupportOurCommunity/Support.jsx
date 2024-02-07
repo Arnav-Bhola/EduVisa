@@ -50,7 +50,7 @@ const Support = () => {
             icon={faPenToSquare}
             buttonElement={
               <Button
-                href='programs/tutoring'
+                to='programs/tutoring'
                 linktype='inside'
                 className={styles["button"]}
               >
@@ -64,7 +64,7 @@ const Support = () => {
             icon={faGraduationCap}
             buttonElement={
               <Button
-                href='programs/mentorship'
+                to='programs/mentorship'
                 linktype='inside'
                 className={styles["button"]}
               >

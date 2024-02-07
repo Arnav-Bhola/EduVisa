@@ -18,7 +18,7 @@ const Button = ({ children, className, linktype = "inside", ...props }) => {
         {children}
       </Link>
     );
-  } else {
+  } else if (linktype === "outside") {
     return (
       <a
         className={classes}
