@@ -1,0 +1,30 @@
+:root {
+  --footer-padding: 6rem;
+  --footer-phone-gap: 4rem;
+
+  --footer-sub-column-width: 30%;
+  --footer-sub-column-header-font-size: 2.4rem;
+  --footer-sub-column-header-whitespace: 0.5rem;
+
+  --footer-link-font-size: 1.4rem;
+  --footer-link-font-weight: 400;
+  --footer-link-line-height: 1.9;
+
+  --footer-copyright-text-font-size: 1.4rem;
+  --footer-copyright-text-line-height: 1;
+
+  --footer-main-column-width: 30%;
+  --footer-main-column-logo-width: 20rem;
+  --footer-main-column-logo-whitespace: 0.4rem;
+
+  --footer-socials-whitespace: 3rem;
+  --footer-social-gap: 1rem;
+  --footer-social-size: 3rem;
+}
+
+@media only screen and (max-width: 45em) {
+  :root {
+    --footer-main-column-width: 80%;
+    --footer-sub-column-width: 80%;
+  }
+}

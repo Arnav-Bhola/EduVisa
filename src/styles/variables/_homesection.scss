@@ -17,6 +17,8 @@
   --home-section-subsection-icon-size: 6rem;
   --home-section-subsection-icon-gap: 2rem;
   --home-section-subsection-heading-font-size: 2.4rem;
+  --home-section-subsection-phone-width: 70%;
+  --home-section-subsection-phone-gap: 5rem;
 
   --home-section-underline-border-width: 2px;
   --home-section-underline-width: 5.5rem;
@@ -27,6 +29,9 @@
 @media only screen and (max-width: 31em) {
   :root {
     --home-section-text-block-width: 80%;
+
+    --home-section-subsection-phone-width: 80%;
+    --home-section-subsection-phone-gap: 7rem;
   }
 }
 

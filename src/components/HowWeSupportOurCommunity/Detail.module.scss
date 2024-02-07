@@ -33,3 +33,9 @@
   margin-top: var(--home-section-details-whitespace);
   color: var(--color-black);
 }
+
+@media only screen and (max-width: 52.5em) {
+  .container {
+    height: fit-content;
+  }
+}

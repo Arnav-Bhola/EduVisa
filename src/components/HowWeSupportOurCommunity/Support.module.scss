@@ -48,3 +48,11 @@
   margin-top: var(--home-section-support-subsections-whitespace);
   justify-self: flex-end;
 }
+
+@media only screen and (max-width: 52.5em) {
+  .subsections {
+    flex-direction: column;
+    width: var(--home-section-subsection-phone-width);
+    gap: var(--home-section-subsection-phone-gap);
+  }
+}
