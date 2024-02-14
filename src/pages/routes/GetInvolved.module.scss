@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  width: 100%;
+  background-color: var(--color-pink);
+  color: var(--color-white);
+  padding: 7rem 25%;
+  border-top: var(--color-dark-pink) solid 1px;
+}
+
+.heading {
+  font-size: 6.1rem;
+}
+
+.subheading {
+  font-size: 2.4rem;
+  opacity: 0.9;
+}
+
+.button {
+  justify-self: center;
+  align-self: flex-start;
+  margin-top: 0;
+}
