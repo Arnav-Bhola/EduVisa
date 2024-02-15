@@ -1,0 +1,93 @@
+.container {
+  background-color: var(--color-light-gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--home-section-container-vertical-padding) 0;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: var(--home-section-support-text-block-width);
+}
+
+.underline {
+  border: 100000rem solid var(--color-pink);
+  border-width: var(--home-section-underline-border-width);
+  max-width: var(--home-section-underline-width);
+  width: 100%;
+}
+
+.heading {
+  font-size: var(--home-section-heading-font-size);
+  font-weight: var(--home-section-heading-font-weight);
+  margin-bottom: var(--home-section-heading-whitespace);
+}
+
+.details {
+  font-size: var(--home-section-details-font-size);
+  line-height: var(--home-section-details-line-height);
+  margin-top: var(--home-section-details-whitespace);
+  color: var(--color-black);
+}
+
+.subsections {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: var(--home-video-section-video-gap);
+  width: 100%;
+  margin-top: var(--home-section-support-subsections-whitespace);
+}
+
+.button {
+  margin-top: var(--home-section-support-subsections-whitespace);
+  justify-self: flex-end;
+  margin: var(--home-video-section-button-whitespace);
+}
+.button-container {
+  display: flex;
+}
+
+.webinar-video {
+  margin: 0; /* Remove fixed margin, use padding alone for spacing */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media only screen and (max-width: 52.5em) {
+  .subsections {
+    flex-direction: column;
+    width: var(--home-section-subsection-phone-width);
+    gap: var(--home-section-subsection-phone-gap);
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .button-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--home-section-button-whitespace);
+  }
+
+  .button {
+    margin: 0;
+    margin-top: var(--home-section-support-subsections-whitespace);
+  }
+
+  .video {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -2,6 +2,7 @@ import Header from "../../components/Header/Header";
 import HomeSection from "../../components/HomeSection/HomeSection";
 import Button from "../../components/UI/Button";
 import Support from "../../components/HowWeSupportOurCommunity/Support";
+import Videos from "../../components/HomeSection/Videos";
 
 import { jobBoardLink } from "../redirects/Apply";
 import { donateLink } from "../redirects/Donate";
@@ -46,6 +47,7 @@ const HomePage = () => {
           </Button>
         }
       />
+      <Videos />
     </div>
   );
 };
