@@ -1,7 +1,7 @@
 import styles from "./GetInvolved.module.scss";
 
-import teamsImage from "../../assets/images/get-involved/teams.jpeg";
-import helpersImage from "../../assets/images/get-involved/helpers.jpeg";
+import teamsImage from "../../assets/images/get-involved/teams.png";
+import helpersImage from "../../assets/images/get-involved/helpers.png";
 
 import GraphicSection from "../../components/GraphicSection/GraphicSection";
 import Button from "../../components/UI/Button";

@@ -40,3 +40,43 @@
   font-size: 1.8rem;
   opacity: 0.9;
 }
+
+@media only screen and (max-width: 62.5em) {
+  .container {
+    justify-content: space-between;
+    padding: 4rem 5rem;
+  }
+}
+
+@media only screen and (max-width: 50em) {
+  .container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 8rem 3rem;
+    text-wrap: wrap;
+  }
+
+  .image-container {
+    height: 100%;
+    width: auto;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .content {
+    width: fit-content;
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 18em) {
+  .image-container {
+    display: none;
+  }
+}
