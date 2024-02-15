@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 export const discordLink = "https://discord.com/invite/9aFBhgf";
 
-const ApplyPage = () => {
+const Discord = () => {
   useEffect(() => {
     window.location.replace(discordLink);
   }, []);
@@ -14,4 +14,4 @@ const ApplyPage = () => {
   );
 };
 
-export default ApplyPage;
+export default Discord;

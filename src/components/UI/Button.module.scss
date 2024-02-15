@@ -18,4 +18,11 @@
   -ms-touch-action: manipulation;
   touch-action: manipulation;
   display: inline-block;
+  transition: none;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+    color: var(--color-white);
+  }
 }

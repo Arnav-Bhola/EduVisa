@@ -20,6 +20,12 @@
   font-weight: var(--phone-navbar-link-font-weight);
   font-size: var(--phone-navbar-link-font-size);
   letter-spacing: --phone-navbar-link-letter-spacing;
+  transition: none;
+
+  &:hover {
+    text-decoration: none;
+    color: var(--color-white);
+  }
 }
 
 @media only screen and (max-width: 63em) {
