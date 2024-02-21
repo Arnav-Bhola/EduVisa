@@ -2,9 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4rem 10rem;
+  padding: var(--graphic-section-container-padding);
   width: 100%;
-  gap: 4rem;
+  gap: var(--graphic-section-container-gap);
 }
 
 .inverse {
@@ -32,23 +32,22 @@
 .content {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: var(--graphic-section-content-gap);
   width: 50%;
 }
 
 .heading {
-  font-size: 3rem;
+  font-size: var(--graphic-section-content-heading-font-size);
 }
 
 .details {
-  font-size: 1.8rem;
-  opacity: 0.9;
+  font-size: var(--graphic-section-content-details-font-size);
+  opacity: var(--graphic-section-content-details-opacity);
 }
 
 @media only screen and (max-width: 62.5em) {
   .container {
     justify-content: space-between;
-    padding: 4rem 5rem;
   }
 }
 
@@ -57,8 +56,6 @@
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
-    padding: 8rem 3rem;
     text-wrap: wrap;
   }
 
