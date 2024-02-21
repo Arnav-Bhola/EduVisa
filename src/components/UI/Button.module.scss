@@ -18,11 +18,13 @@
   -ms-touch-action: manipulation;
   touch-action: manipulation;
   display: inline-block;
-  transition: none;
+  transition: all 1s;
   cursor: pointer;
 
   &:hover {
     text-decoration: none;
     color: var(--color-white);
+    background-color: var(--color-light-black);
+    transform: translateY(-1rem);
   }
 }

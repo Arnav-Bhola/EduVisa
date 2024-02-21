@@ -3,6 +3,8 @@
   align-items: center;
   justify-content: center;
   padding: 4rem 10rem;
+  width: 100%;
+  gap: 4rem;
 }
 
 .inverse {
@@ -14,7 +16,7 @@
 }
 
 .image-container {
-  height: 40rem;
+  max-height: 50rem;
   width: 50%;
   display: flex;
   align-items: center;
@@ -22,7 +24,9 @@
 }
 
 .image {
-  height: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  width: 100%;
 }
 
 .content {
