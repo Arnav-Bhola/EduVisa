@@ -8,6 +8,8 @@ import ApplyPage from "./redirects/Apply";
 import DonatePage from "./redirects/Donate";
 import Discord from "./redirects/Discord";
 import EventsCalendar from "./redirects/EventsCalendar";
+import ResourcesPage from "./routes/Resources";
+import ResourcesList from "./routes/ResourcesList";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +21,14 @@ const router = createBrowserRouter([
       {
         path: "/get-involved",
         element: <GetInvolved />,
+      },
+      {
+        path: "/resources",
+        element: <ResourcesPage />,
+      },
+      {
+        path: "/resources/:id",
+        element: <ResourcesList />,
       },
     ],
   },

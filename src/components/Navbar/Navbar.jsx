@@ -44,7 +44,7 @@ const Navbar = () => {
             <div className={styles["link-text-container"]}>what we do</div>
           </Link>
           <Link
-            to='/'
+            to='/resources'
             className={styles["link"]}
           >
             <div className={styles["link-text-container"]}>resources</div>
