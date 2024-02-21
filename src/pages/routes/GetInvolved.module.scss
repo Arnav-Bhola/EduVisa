@@ -9,29 +9,28 @@
   width: 100%;
   background-color: var(--color-pink);
   color: var(--color-white);
-  padding: 7rem 25%;
-  border-top: var(--color-dark-pink) solid 1px;
+  padding: var(--get-involved-header-padding);
+  border-top: var(--color-dark-pink) solid var(--get-involved-heading-division-width);
 }
 
 .heading {
-  font-size: 6.1rem;
+  font-size: var(--get-involved-heading-font-size);
 }
 
 .subheading {
-  font-size: 2.4rem;
-  opacity: 0.9;
+  font-size: var(--get-involved-subheading-font-size);
+  opacity: var(--get-involved-subheading-opacity);
 }
 
 .button {
   justify-self: center;
   align-self: flex-start;
-  margin-top: 0;
+  margin-top: var(--get-involved-button-top-whitespace);
 }
 
 @media only screen and (max-width: 50em) {
   .button {
     align-self: center;
-    margin-top: 2rem;
   }
 }
 

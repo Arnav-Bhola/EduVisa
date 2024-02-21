@@ -107,6 +107,18 @@ const ResourcesPage = () => {
         left
         background
       />
+      <footer className={styles["footer"]}>
+        <h2 className={styles["footer-heading"]}>
+          Also check out our resources draft with other miscellaneous resources!
+        </h2>
+        <Button
+          href={"https://www.google.com"}
+          linktype='outside'
+          className={styles["footer-button"]}
+        >
+          CHECK OUT THE DRAFT!
+        </Button>
+      </footer>
     </div>
   );
 };

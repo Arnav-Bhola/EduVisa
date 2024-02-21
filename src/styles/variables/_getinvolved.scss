@@ -1,0 +1,21 @@
+:root {
+  --get-involved-heading-padding: 7rem 25%;
+  --get-involved-heading-division-width: 1px;
+  --get-involved-heading-font-size: 6.1rem;
+  --get-involved-subheading-font-size: 2.4rem;
+  --get-involved-subheading-opacity: 0.9;
+
+  --get-involved-button-top-whitespace: 0;
+}
+
+@media only screen and (max-width: 50em) {
+  :root {
+    --get-involved-button-top-whitespace: 2rem;
+  }
+}
+
+@media only screen and (max-width: 25em) {
+  :root {
+    --get-involved-heading-padding: 7rem 2rem;
+  }
+}

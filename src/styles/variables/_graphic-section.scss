@@ -1,0 +1,23 @@
+:root {
+  --graphic-section-container-padding: 4rem 10rem;
+  --graphic-section-container-gap: 4rem;
+
+  --graphic-section-image-container-fixed-height: 50rem;
+
+  --graphic-section-content-gap: 2rem;
+  --graphic-section-content-heading-font-size: 3rem;
+  --graphic-section-content-details-font-size: 1.8rem;
+  --graphic-section-content-details-opacity: 0.9;
+}
+
+@media only screen and (max-width: 62.5em) {
+  :root {
+    --graphic-section-container-padding: 4rem 5rem;
+  }
+}
+
+@media only screen and (max-width: 50em) {
+  :root {
+    --graphic-section-container-padding: 8rem 3rem;
+  }
+}
