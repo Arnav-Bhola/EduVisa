@@ -7,7 +7,7 @@ const ResourcesSat = () => {
         target="_blank"
         rel="noopener noreferrer"
         href="https://drive.google.com/file/d/1q318_LqZYj_h0BWgfsov5CAEyDou3AYQ/view?usp=sharing"
-        className={`${styles["list-group-item"]} ${styles.active} ${styles["list-group-item-action"]}`}
+        className={`${styles["list-group-item"]} ${styles.active} ${styles["list-group-item-action"]}`}style={{ backgroundColor:'#337ab7', color: 'white' }}
       >
         General Tips for the SAT (very important)
       </a>
