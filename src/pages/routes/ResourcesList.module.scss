@@ -10,8 +10,7 @@
   background-color: var(--color-pink);
   color: var(--color-white);
   padding: var(--resources-heading-padding);
-  border-top: var(--color-dark-pink) solid
-    var(--resources-heading-division-width);
+  border-top: var(--color-dark-pink) solid var(--resources-heading-division-width);
 }
 
 .heading {
@@ -32,15 +31,15 @@
 
 .list-group-item {
   font-family: sans-serif;
-  font-size: 22px;
+  font-size: var(--resources-list-group-item-font-size);
   margin: 10px;
   border-radius: 5px;
   position: relative;
   display: block;
   padding: 10px 15px 10px;
   margin-bottom: -1px;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray);
   line-height: 28.5667px;
   border-top-color: rgb(221, 221, 221);
   border-right-color: rgb(221, 221, 221);
@@ -50,17 +49,17 @@
 
 /* Active item styles */
 .list-group-item.active {
-  background-color: #ffffff;
-  color: rgb(85, 85, 85);
+  background-color: var(--color-white);
+  color: var(--color-gray);
   font-weight: normal;
 }
 
 /* Link styles */
 .list-group-item-action {
   text-decoration: none;
-  color: rgb(85, 85, 85);
+  color: var(--color-gray);
 }
 
 .list-group-item-action:hover {
-  background-color: rgba(158, 158, 158, 0.993);
+  background-color: var(--color-gray);
 }
